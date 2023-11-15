@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>m d i</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- ================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+      <div class="logo">
+        <h1>
+          <a href="index.html"><img src="assets/img/logoa.png" alt="" class="img-fluid" /></a>
+        </h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">Our Service</a></li>
+          <li class="dropdown">
+            <a class="nav-link scrollto" href="#Product"><span>Product</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown">
+                <a href="product.html"><span>DASAN</span>
+                  <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">OLT</a></li>
+                  <li><a href="#">ONU</a></li>
+                  <li><a href="#">ONT</a></li>
+                  <li><a href="#">SWITCH</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="product.html"><span>ZHONE</span>
+                  <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">OLT</a></li>
+                  <li><a href="#">ONU</a></li>
+                  <li><a href="#">ONT</a></li>
+                  <li><a href="#">SWITCH</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="#project">Our Project</a>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+
+          <!-- ======= hero Section 1 ======= -->
+          <div class="carousel-item active"
+            style="background-image: url(assets/img/hero-carousel/human-resources-concept-with-people.jpg);">
+            <div class="carousel-container">
+              <div class="container">
+                <div class="float-start">
+                  <img class="animate__animated animate__fadeInLeft" src="assets/img/hero-carousel/1wp_dasan.png"
+                    width="304" height="236" />
+                </div>
+                <div class="float-end">
+                  <img class="animate__animated animate__fadeInRight" src="assets/img/hero-carousel/1wp_dzs.png"
+                    width="304" height="236" />
+                </div>
+                <p class="animate__animated animate__fadeInUp">We are here to provide your network connectivity
+                  solutions</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ======= hero Section 2 ======= -->
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/slide-02a.jpg);">
+            <div class="carousel-container">
+              <div class="container">
+                <img class="animate__animated animate__fadeInDown" src="assets/img/about/text mdi master.png"
+                  width="500" height="250" />
+                <p class="animate__animated animate__fadeInRight">Trusted distributor and Experienced technical support
+                  for DASAN / DZS equipment in Indonesia</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ======= hero Section 3 ======= -->
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <img class="animate__animated animate__fadeInDown" src="assets/img/hero-carousel/hero 3.png" />
+                <p class="animate__animated animate__fadeInUp">offers something that is beyond your reach</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section class="service-area area-padding" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Our Services</h2>
+            </div>
+          </div>
+        </div>
+
+      </div class="row">
+      <!-- Services 1 -->
+      <div class="col-lg-12">
+        <div class="service-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="left-image">
+                <img src="assets/img/service/WhatsApp Image 2023-11-01 at 6.25.40 PM.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <div class="right-text-content">
+                <i class="bi bi-arrow-left-right"></i>
+                <h4>Fiber Optic Instalations</h4>
+                <p>We are confident in our ability to deliver high-quality network cabling installations that will
+                  enhance your organization's connectivity and productivity. Please feel free to reach out to discuss
+                  your specific requirements or to schedule an on-site consultation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..... -->
+      <!-- Services 2 -->
+      <div class="col-lg-12">
+        <div class="service-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="left-image">
+                <img src="assets/img/service/WhatsApp Image 2023-11-06 at 4.29.16 PM.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <div class="right-text-content">
+                <i class="bi bi-arrow-left-right"></i>
+                <h4>training</h4>
+                <p>We also provide training, with teachers who are competent in this field.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..... -->
+      <!-- Services 3 -->
+      <div class="col-lg-12">
+        <div class="service-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="left-image">
+                <img src="assets/img/service/Untitled.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <div class="right-text-content">
+                <i class="bi bi-arrow-left-right"></i>
+                <h4>Support and monitoring</h4>
+                <p>Service Level Agreement (SLA)
+                  - Unlimited Access to DZS Technical Support, Software Fixes, Online resources, and extended Warranty.
+                  Remote Professional Services
+                  - Configuration changes
+                  - Network Audits
+                  - Subscriber Moves/Adds / Changes - SW Upgrades
+                  - 24x7 Help Desk
+                  On-Site Professional Services
+                  - Dedicated Support Engineer / Resident Engineer - Engineer, Furnish, & Install (E,F & I)
+                  Managed Services
+                  - FiberLAN "GPON in a box" w/ Remote Monitoring
+                  - Data Collection Engines
+                  - Network Health Reports - NOC as a Service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..... -->
+      </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- ======= Product Section ======= -->
+    <section class="Our-Product area-padding" id="Product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Our Product</h2>
+              <h4>Make Your Choice</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div id="tabs">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="menu">
+                    <div class="active gradient-border">
+                      <span>GPON Solution</span>
+                    </div>
+                    <div class="gradient-border">
+                      <span>Ethernet Switch Solution</span>
+                    </div>
+                    <div class="gradient-border">
+                      <span>Software Solution</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ....  -->
+                <!-- product nacc -->
+                <div class="col-lg-12">
+                  <ul class="nacc">
+
+                    <!-- ....  -->
+                    <!--gpon product-->
+                    <li class="active">
+                      <div class="row">
+                        <!--gpon row1-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/OLT-v-8102.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>V-8102</h4>
+                                </div>
+                                <p>The V8102 is a 2RU height chassis-based GPON OLT system with four
+                                   slots for two service module units and two switching fabric units with uplink modules,
+                                   providing a wide range of high-performance features for FTTx applications.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--gpon row2-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/ont-h660-gm.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>H-660-GM</h4>
+                                </div>
+                                <p>To deliver triple-play services to the subscriber in
+                                  Fiber-to-the-Home or Fiber-to-the-Premises application, the GPON ONT H660GM incorporates
+                                  interoperability, key customers’ specific requirements and cost-efficiency.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--gpon row3-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>V-8106</h4>
+                                </div>
+                                <p>A highly integrated system can provide 12,288 homes and businesses with 96 GPON ports. The most compact type of GPON OLT chassis system that provides GPON Protection.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        
+                        <div class="button">
+                          <a href="product.html">More Product</a>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- ....  -->
+                    <!--switch product-->
+                    <li>
+                      <div class="row">
+                        <!--switch row1-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/switch-v-8610.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>V-8610</h4>
+                                </div>
+                                <p>The V8610 switch is designed to meet the needs of cloud data center applications and provides virtualization, high availability, high performance, various functions, and flexible configuration to build a powerful core network with easy and simple configuration.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--switch row2-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/V5648G-dzs.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>V-5648-G</h4>
+                                </div>
+                                <p>The V5648G is an enterprise-grade switch, with a 1U form factor for data center, campus, and branch office environments. The device provides 48 1Gigabit Ethernet (RJ45) ports and provides high-bandwidth switching, filtering, and traffic management without introducing data latency.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--switch row3-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/V2624G-PoE-dzs.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>V-2624-G-PoE</h4>
+                                </div>
+                                <p>This device is suitable for small and medium businesses that need PoE functionality to focus on IP telephony and data streaming.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+
+                        
+
+                        <div class="button">
+                          <a href="product.html">More Product</a>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- ....  -->
+                    <!--software product-->
+                    <li>
+                      <div class="row">
+                        <!--software row1-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/dzs-xtreme-stock.jpg" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>DZS Xtreme</h4>
+                                </div>
+                                <p>Simplify creation, deployment, and management of end-to-end connectivity services including access, transport, and 5G slices across multi-vendor network elements, network functions, and cloud infrastructure.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--software row2-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/dzs_expresse_monitor_mockup.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>DZS Expresse</h4>
+                                </div>
+                                <p>Gain a clear view of your multi-vendor, multi-technology networks for access network assurance while monitoring, identifying, diagnosing, and fixing network problems with our AI-based intelligent recommendation engine.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        <!--software row3-->
+                        <div class="column">
+                          <div class="card">
+                            <div class="card-img-top">
+                              <img src="assets/img/Product/mockup-featuring-two-iphones-x-floating-against-a-solid-color-background-28764.png" alt="" class="mx-auto">
+                            </div>
+                            <div class="card-body">
+                              <div class="card-text">
+                                <div class="card-title">
+                                  <h4>DZS CloudCheck</h4>
+                                </div>
+                                <p>The ideal cloud-based solution for CSPs to monitor, manage, and optimize home Wi-Fi networks, supporting the widest-array of consumer premise equipment on the market.</p>
+                              </div>
+                            </div>
+                            <div class="card-fotter">
+                              <div class="button btn-block">
+                                <a href="product.html">Read More</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ....  -->
+                        
+
+                        <div class="button">
+                          <a href="product.html">More Product</a>
+                        </div>
+                      </div>
+                    </li>
+
+                    <!-- ....  -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product Section -->
+    <!-- ======= Project Section ======= -->
+    <div id="project" class="projects project-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Our Project</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="testimonials-slider swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/menaradanareksa.jpg" class="testimonial-img" alt="">
+                  <h3>Gedung Menara Danareksa</h3>
+                  <h4>Jakarta</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jl. Medan Merdeka Sel. No.14, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus
+                    Ibukota Jakarta 10110
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/tamanmelatidepok.jpg" class="testimonial-img" alt="">
+                  <h3>Apartement Taman Melati Depok</h3>
+                  <h4>Depok</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jl. Margonda Raya No.525A, Pondok Cina, Kecamatan Beji, Kota Depok, Jawa Barat 16424
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/pelindo.jpg" class="testimonial-img" alt="">
+                  <h3>Pelindo Place Office Tower</h3>
+                  <h4>Surabaya</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jl. Perak Timur No.478, Perak Utara, Kec. Pabean Cantikan, Surabaya, Jawa Timur 60165
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/tamanmelatisurabaya.jpg" class="testimonial-img" alt="">
+                  <h3>Apartement Taman Melati Merr Surabaya</h3>
+                  <h4>Surabaya</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jl. Mulyorejo Utara No.201, RT.006/RW.001, Mulyorejo, Kec. Mulyorejo, Kota SBY, Jawa Timur
+                    60115
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/images.jpg" class="testimonial-img" alt="">
+                  <h3>InterContinental Jakarta Pondok Indah</h3>
+                  <h4>Jakarta</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jalan Metro Pondok Indah Kav. IV TA, RT.1/RW.16, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta
+                    Selatan, Daerah Khusus Ibukota Jakarta 12310
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/chadstone-building-night3-1200x720-1.jpg" class="testimonial-img" alt="">
+                  <h3>Pollux Chadstone Cikarang</h3>
+                  <h4>Ciakarang</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jalan Raya Cikarang - Cibarusah, Exit Toll KM31 Cikarang Barat, Pasirsari, Cikarang Sel.,
+                    Kabupaten Bekasi, Jawa Barat 17530
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/project/cartenz.png" class="testimonial-img" alt="">
+                  <h3>Carstensz Residence and Mall</h3>
+                  <h4>Tengerang Banten</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Address: Jl. Jenderal Sudirman No.1, Cihuni, Kec. Pagedangan, Kabupaten Tangerang, Banten 15332
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Project Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="contact-area">
+      <div class="contact-inner area-padding">
+        <div class="contact-overly"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Contact Sales</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-phone"></i>
+                  <p>
+                    Call: +1 5589 55488 55<br />
+                    <span>Monday-Friday (9am-5pm)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-envelope"></i>
+                  <p>
+                    Email: info@example.com<br />
+                    <span>Web: www.mdi-solutions.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>
+                    Location: A108 Adam Street<br />
+                    <span>NY 535022, USA</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- ======= Custumer Section ======= -->
+    <div class="infinity-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h3>Our Customer</h3>
+            </div>
+          </div>
+        </div>
+        <div class="infinity-wrapper">
+          <div class="infinity-slider">
+            <div class="infinity-slide-track">
+
+              <!-- Img Code -->
+              <div class="infinity-slide">
+                <img src="assets/img/customer/Azbil_Corporation_logo.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/mora.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/berca_hardayaperkasa_pt_1526030194.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/centrin-online-colocation-logo.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/chadstone_work-main.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/indonet.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/kddi.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/patrajasa.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/logo_dapenbi.4d95b40.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/MALL-PESONA-DEPOK-1.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/Menara_Danareksa_Logo.png">
+              </div>
+
+              <div class="infinity-slide">
+                <img src="assets/img/customer/padma.png">
+              </div>
+
+              <!-- Img Code End -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Customer Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div id="footer" class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo img">
+                  <h2 href="index.html"><img src="assets/img/logoab.png" alt="" class="img-fluid" /></h2>
+                </div>
+                <div class="footer-logo">
+                  <p>Moimstone <span>Dasan</span> Indonesia</p>
+                </div>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Gedung Tifa Arum Realty, 3rd Floor Suite 301 Mampang Prapatan, Jakarta Selatan
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +6221-293-067-14</p>
+                  <p><span>Email:</span href="mailto:info@mdi-solutions.com">info@mdi-solutions.com</p>
+                  <p><span>Email:</span href="mailto:support@mdi-solutions.com">support@mdi-solutions.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>moimstone <span>dasan</span> Indonesia</strong>. All Rights
+                Reserved
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+            -->
+              Designed by
+              <a href="wwww.mdi-solutions.com">mdi-solutions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <!-- <script src="assets/js/owl-carousel.js"></script> -->
+
+
+</body>
+
+</html>
