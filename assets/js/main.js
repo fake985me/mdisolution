@@ -74,6 +74,7 @@
       behavior: 'smooth'
     })
   }
+  
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
@@ -211,7 +212,7 @@
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
-
+  
   /**
    * product 
    */

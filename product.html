@@ -14,21 +14,23 @@
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,800&amp;display=swap"
     rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/prod.css" rel="stylesheet" />
-  <link href="assets/css/responsive.css" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.15.1/slimselect.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 
   <!-- ================================================== -->
 </head>
@@ -45,14 +47,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li class="dropdown">
-            <a class="nav-link scrollto active" href="#product"><span>Product</span> <i
-                class="bi bi-chevron-down"></i></a>
+            <a class="nav-link scrollto" href="#Product"><span>Product</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown">
-                <a href="#"><span>DASAN</span>
-                  <i class="bi bi-chevron-right"></i></a>
+                <a href="product.html"><span>DASAN</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">OLT</a></li>
                   <li><a href="#">ONU</a></li>
@@ -61,8 +61,7 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#"><span>ZHONE</span>
-                  <i class="bi bi-chevron-right"></i></a>
+                <a href="product.html"><span>ZHONE</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">OLT</a></li>
                   <li><a href="#">ONU</a></li>
@@ -72,7 +71,9 @@
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="index.html">Contact Us</a></li>
+          <li>
+            <a class="nav-link scrollto active" href="#contact">Contact Us</a>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -81,380 +82,341 @@
   </header>
   <!-- End Header -->
 
-  <section id="advertisement">
-    <div class="container">
-      <img src="assets/img/shop/advertisement.jpg" alt="" />
-    </div>
-  </section>
-
-  <!-- ======= Product Section ======= -->
-  <section id="product">
-    <div class="container">
-      <div class="row">
-
-        <!--sidebar-->
-        <div class="col-sm-3">
-          <div class="left-sidebar">
-            <h2>Category</h2>
-
-            <!--category-product-->
-            <div class="list-group category-products">
-              
-              <!--category-All Product-->
-              <div class="panel panel-default">                
-                  <div class="panel-body">
-                    <ul id="category-flters">
-                      <li data-filter="*" class="filter-all">All Product</li>
-                      <li>
-                        <a class="panel-title">Dasan</a>
-                        <span class="badge pull-right collapsed" data-bs-toggle="collapse" href="#dasan" aria-expanded="false">
-                          <i class="bi-filter-right"></i>
-                        </span>
-                        <div id="dasan" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <ul>
-                              <li><a href="">G-PON OLT</a></li>
-                              <li><a href="">G-PON ONT</a></li>
-                              <li><a href="">G-PON ONU</a></li>
-                              <li><a href="">SWITCH</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <a class="panel-title">zhone</a>
-                        <span class="badge pull-right collapsed" data-bs-toggle="collapse" href="#zhone" aria-expanded="false">
-                          <i class="bi-filter-right"></i>
-                        </span>
-                        <div id="zhone" class="panel-collapse collapse">
-                          <div class="panel-body">
-                            <ul>
-                              <li><a href="">G-PON OLT</a></li>
-                              <li><a href="">G-PON ONT</a></li>
-                              <li><a href="">G-PON ONU</a></li>
-                              <li><a href="">SWITCH</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                      <li><a href="">Software</a></li>
-                    </ul>
-                  </div>
-                
-              </div>
-              <!--End--category-DZS-->
-            </div>
-            <!--/category-productsr-->
-
-
-            <div class="shipping text-center">
-              <!--shipping-->
-              <img src="assets/img/shop/shipping.jpg" alt="" />
-            </div><!--/shipping-->
-          </div>
+  <main id="main">
+    <div class="wrapper">
+      <!-- ======= Advert Section ======= -->
+      <section id="advertisement">
+        <div class="container">
+          <img src="assets/img/shop/advertisement.jpg" alt="" />
         </div>
-        <!-- end sidebar-->
+      </section>
+      <!-- ======= end Advert Section ======= -->
 
-
-        <!--features_items-->
-        <div class="col-sm-9 padding-right">
-          <div class="features_items">
-            <h2 class="title text-center">Features Items</h2>
-            <div class="container">
-              <div class="row">
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-                <!--items v8106-->
-                <div class="column">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="assets/img/Product/OLT-v8106.png" alt="" class="mx-auto">
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                        <li><a href=""><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--end items-->
-
-              </div>
-            </div>
-          </div>
-          <!--features_items-->
-        </div>
-      </div>
-
-      <div class="container">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </div>
-
-    </div>
-    </div>
-  </section>
-  <!-- End Product Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <div id="contact" class="contact-area">
-    <div class="contact-inner area-padding">
-      <div class="contact-overly"></div>
+      <!-- ======= Portfolio Section ======= -->
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Contact Sales</h2>
+          <!-- ======= Portfolio filter Section ======= -->
+          <div class="col-sm-3">
+            <div class="left-sidebar">
+              <h2>Category</h2>
+              <div class="list-group category-products">
+                <div class="panel">
+                  <div class="gallery-filters">
+                    <h3 class="gallery-filters__title">Filters</h3>
+                    <label class="gallery-filters__filter" for="search-filter">
+                      <span> Search </span>
+                      <input type="text" placeholder="Search categories and types" id="search-filter" value="" />
+                    </label>
+
+                    <label class="gallery-filters__filter" for="category-filter">
+                      <span>Brand</span>
+                      <select name="category-filter" id="category-filter">
+                        <option value="all">All</option>
+                        <option value="dasan">Dasan</option>
+                        <option value="zhone">Zhone</option>
+                      </select>
+                    </label>
+
+                    <label class="gallery-filters__filter" for="type-filter">
+                      <span>Type</span>
+                      <select name="type-filter" id="type-filter">
+                        <option value="all">All</option>
+                        <option value="olt">Olt</option>
+                        <option value="onu">Onu</option>
+                        <option value="ont">Ont</option>
+                        <option value="switch">Switch</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <!-- ======= end Portfolio filter Section ======= -->
+
+          <!-- ======= Portfolio content Section ======= -->
+
+          <div class="col-sm-9 padding-right">
+            <div class="left-sidebar title text-center">
+              <h2>Product</h2>
+            </div>
+            <div class="image-gallery grid muuri" id="gallery-grid" style="height: 1312px" class="ms-auto">
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="dasan"
+                data-type="olt" style="
+                      left: 0px;
+                      top: 0px;
+                      transform: translateX(0px) translateY(0px);
+                      display: block;
+                    ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/OLT-v-8204.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--dasan">
+                      <span> Dasan </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link">
+                    Read More
+                  </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="zhone"
+                data-type="ont" style="
+                    left: 0px;
+                    top: 0px;
+                    transform: translateX(0px) translateY(0px);
+                    display: block;
+                  ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/zhone_OLT-v14.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--zhone">
+                      <span> Zhone </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link"> Read More </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="dasan"
+                data-type="onu" style="
+                    left: 0px;
+                    top: 0px;
+                    transform: translateX(0px) translateY(0px);
+                    display: block;
+                  ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/V5648G-dzs.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--dasan">
+                      <span> Dasan </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link"> Read More </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="dasan"
+                data-type="olt" style="
+                    left: 0px;
+                    top: 0px;
+                    transform: translateX(0px) translateY(0px);
+                    display: block;
+                  ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/OLT-v-8102.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--dasan">
+                      <span> Dasan </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link"> Read More </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="dasan"
+                data-type="olt" style="
+                    left: 0px;
+                    top: 0px;
+                    transform: translateX(0px) translateY(0px);
+                    display: block;
+                  ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/V2624G-PoE-dzs.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--dasan">
+                      <span> Dasan </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link"> Read More </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+
+              <div class="col-sm-4 image-gallery__item muuri-item muuri-item-shown" data-category="dasan"
+                data-type="olt" style="
+                    left: 0px;
+                    top: 0px;
+                    transform: translateX(0px) translateY(0px);
+                    display: block;
+                  ">
+                <div class="muuri-safe" style="opacity: 1; transform: scale(1)">
+                  <figure role="group" class="image-gallery__item-image">
+                    <img src="assets/img/Product/ont-zhone_znid-2600.png" alt="" class="mx-auto" />
+                    <div class="image-gallery__item-tag image-gallery__item-tag--dasan">
+                      <span> Dasan </span>
+                    </div>
+                  </figure>
+                  <div class="image-gallery__item-wrap">
+                    <h3 class="image-gallery__item-title">V-8204</h3>
+                  </div>
+                  <a href="" class="image-gallery__item-link"> Read More </a>
+                </div>
+                <!-- / muuri safe-zone -->
+              </div>
+              <!-- /gallery item -->
+            </div>
+          </div>
+          <!-- /image-gallery -->
+
+          <!-- ======= end Portfolio content Section ======= -->
         </div>
-        <div class="row">
-          <!-- Start contact icon column -->
-          <div class="col-md-4">
-            <div class="contact-icon text-center">
-              <div class="single-icon">
-                <i class="bi bi-phone"></i>
-                <p>
-                  Call: +1 5589 55488 55<br />
-                  <span>Monday-Friday (9am-5pm)</span>
-                </p>
+      </div>
+      <!-- ======= end Portfolio Section ======= -->
+
+
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="contact-area">
+        <div class="contact-inner area-padding">
+          <div class="contact-overly"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                  <h2>Contact Sales</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Start contact icon column -->
-          <div class="col-md-4">
-            <div class="contact-icon text-center">
-              <div class="single-icon">
-                <i class="bi bi-envelope"></i>
-                <p>
-                  Email: info@example.com<br />
-                  <span>Web: www.mdi-solutions.com</span>
-                </p>
+            <div class="row">
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-phone"></i>
+                    <p>
+                      Call: +1 5589 55488 55<br />
+                      <span>Monday-Friday (9am-5pm)</span>
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- Start contact icon column -->
-          <div class="col-md-4">
-            <div class="contact-icon text-center">
-              <div class="single-icon">
-                <i class="bi bi-geo-alt"></i>
-                <p>
-                  Location: A108 Adam Street<br />
-                  <span>NY 535022, USA</span>
-                </p>
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-envelope"></i>
+                    <p>
+                      Email: info@example.com<br />
+                      <span>Web: www.mdi-solutions.com</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>
+                      Location: A108 Adam Street<br />
+                      <span>NY 535022, USA</span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- End Contact Section -->
+
+      <!-- ======= Custumer Section ======= -->
+      <div class="infinity-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline services-head text-center">
+                <h3>Our Customer</h3>
+              </div>
+            </div>
+          </div>
+          <div class="infinity-wrapper">
+            <div class="infinity-slider">
+              <div class="infinity-slide-track">
+                <!-- Img Code -->
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/Azbil_Corporation_logo.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/mora.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/berca_hardayaperkasa_pt_1526030194.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/centrin-online-colocation-logo.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/chadstone_work-main.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/indonet.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/kddi.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/patrajasa.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/logo_dapenbi.4d95b40.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/MALL-PESONA-DEPOK-1.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/Menara_Danareksa_Logo.png" />
+                </div>
+
+                <div class="infinity-slide">
+                  <img src="assets/img/customer/padma.png" />
+                </div>
+
+                <!-- Img Code End -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Customer Section -->
     </div>
-  </div>
-  <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer>
@@ -465,7 +427,9 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo img">
-                  <h2 href="index.html"><img src="assets/img/logoab.png" alt="" class="img-fluid" /></h2>
+                  <h2 href="index.html">
+                    <img src="assets/img/logoab.png" alt="" class="img-fluid" />
+                  </h2>
                 </div>
                 <div class="footer-logo">
                   <p>Moimstone <span>Dasan</span> Indonesia</p>
@@ -495,19 +459,19 @@
               <div class="footer-head">
                 <h4>information</h4>
                 <p>
-                  Gedung Tifa Arum Realty, 3rd Floor Suite 301 Mampang Prapatan, Jakarta Selatan
+                  Gedung Tifa Arum Realty, 3rd Floor Suite 301 Mampang
+                  Prapatan, Jakarta Selatan
                 </p>
                 <div class="footer-contacts">
                   <p><span>Tel:</span> +6221-293-067-14</p>
-                  <p><span>Email:</span href="mailto:info@mdi-solutions.com">info@mdi-solutions.com</p>
-                  <p><span>Email:</span href="mailto:support@mdi-solutions.com">support@mdi-solutions.com</p>
+                  <p><span>Email:</span>info@mdi-solutions.com</p>
+                  <p><span>Email:</span>support@mdi-solutions.com</p>
                   <p><span>Working Hours:</span> 9am-5pm</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- end single footer -->
-
         </div>
       </div>
     </div>
@@ -517,8 +481,9 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>moimstone <span>dasan</span> Indonesia</strong>. All Rights
-                Reserved
+                © Copyright
+                <strong>moimstone <span>dasan</span> Indonesia</strong>. All
+                Rights Reserved
               </p>
             </div>
             <div class="credits">
@@ -535,7 +500,6 @@
   </footer>
   <!-- End  Footer -->
 
-  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
@@ -546,7 +510,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
   <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
@@ -556,7 +519,128 @@
   <script src="assets/js/tabs.js"></script>
   <!-- <script src="assets/js/owl-carousel.js"></script> -->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.15.1/slimselect.min.js"></script>
 
+  <script>
+    // Inisialisasi Muuri Grid
+    const grid = new Muuri(".grid");
+
+    // Variabel Penyaring
+    let filteredCategories = [];
+    let filteredTypes = [];
+    let searchTerms = [];
+
+
+    // Mendapatkan Semua Nilai yang Dapat Difilter
+    const categoryFilter = document.getElementById("category-filter");
+    const typeFilter = document.getElementById("type-filter");
+    const searchFilter = document.getElementById("search-filter");
+    const allCategories = Array.from(categoryFilter.querySelectorAll("option"));
+    const allTypes = Array.from(typeFilter.querySelectorAll("option"));
+
+
+    // Set Nilai Default
+    let selectedCategory = categoryFilter.value;
+    let selectedType = typeFilter.value;
+
+    // Menambahkan Event Listener
+    const selects = document.querySelectorAll("select");
+    selects.forEach((item) => {
+      item.addEventListener("change", filterGrid);
+    });
+    searchFilter.addEventListener("change", filterGrid);
+    searchFilter.addEventListener("keyup", filterGrid);
+
+    // Fungsi Penyaring Grid
+    function filterGrid() {
+      // Mendapatkan Nilai Terbaru dari Select
+      selectedCategory = categoryFilter.value;
+      selectedType = typeFilter.value;
+
+      // Mendapatkan Nilai Pencarian Terbaru
+      searchTerms = searchFilter.value.split(" ");
+
+      // Mengosongkan Kategori dan Tipe yang Difilter
+      filteredCategories.splice(0, filteredCategories.length);
+      filteredTypes.splice(0, filteredTypes.length);
+
+      // Kategori
+      if (selectedCategory == "all") {
+        allCategories.forEach((item) => {
+          // Mengecualikan nilai 'all' aktual
+          item.value != "all" ? filteredCategories.push(item.value) : "";
+        });
+      } else {
+        filteredCategories.push(categoryFilter.value);
+      }
+
+      // Tipe
+      if (selectedType == "all") {
+        allTypes.forEach(function (item) {
+          // Mengecualikan nilai 'all' aktual
+          item.value != "all" ? filteredTypes.push(item.value) : "";
+        });
+      } else {
+        filteredTypes.push(typeFilter.value);
+      }
+
+      // Memfilter Grid
+      grid.filter((item) => {
+        // Menemukan kata kunci pencarian yang cocok (dari bidang pencarian, mencari baik kategori maupun tipe)
+        const matchingSearchTerms = searchTerms.some((term) => {
+          return (
+            item.getElement().dataset.category.indexOf(term) >= 0 ||
+            item.getElement().dataset.type.indexOf(term) >= 0
+          );
+        });
+
+        // Menemukan kategori yang cocok (dari bidang select)
+        const matchingCategories = filteredCategories.some((cat) => {
+          return item.getElement().dataset.category.indexOf(cat) >= 0;
+        });
+
+        // Menemukan tipe yang cocok (dari bidang select)
+        const matchingTypes = filteredTypes.some((typ) => {
+          return item.getElement().dataset.type.indexOf(typ) >= 0;
+        });
+
+        // Mengembalikan hasil
+        if (
+          !!matchingSearchTerms &&
+          !!(matchingCategories && matchingTypes)
+        ) {
+          return true;
+        }
+      });
+    } // akhir fungsi penyaring grid
+
+    // Inisialisasi Slim Select
+    new SlimSelect({
+      select: "#category-filter",
+      showSearch: false,
+    });
+
+    new SlimSelect({
+      select: "#type-filter",
+      showSearch: false,
+    });
+
+    // Memperbarui dimensi item galeri dan melakukan muuri refresh setelah gambar terakhir dimuat (jika tidak, pembebanan gambar yang tertunda akan mengacaukan penataan elemen anak muuri, dan item akan tumpang tindih).
+    const galleryImages = document.querySelectorAll(
+      ".image-gallery__item img"
+    );
+    let galleryImagesCount = 0;
+    galleryImages.forEach((item) => {
+      item.addEventListener("load", function () {
+        galleryImagesCount++;
+        galleryImagesCount == galleryImages.length
+          ? grid.refreshItems().layout()
+          : "";
+      });
+    });
+  </script>
 </body>
 
 </html>
