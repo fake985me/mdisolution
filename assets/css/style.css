@@ -294,7 +294,7 @@ div#preloader {
 @media (max-width: 768px) {
   #header {
     height: 64px;
-    background: rgb(126 175 211);
+    background: rgb(83 131 167);
   }
 
   #header .logo h1 {
@@ -371,7 +371,7 @@ div#preloader {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #90deed;
   line-height: 2;
   text-shadow: 0 0 5px #0c0c0c;
@@ -388,7 +388,7 @@ div#preloader {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #a3abb6;
+  background: #fdfeff;
   box-shadow: 0px 0px 3px rgb(20 21 22);
   transition: 0.3s;
 }
@@ -410,11 +410,11 @@ div#preloader {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #82ebff;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -426,7 +426,7 @@ div#preloader {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -438,7 +438,7 @@ div#preloader {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -447,7 +447,7 @@ div#preloader {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #c0b9b9;
+  color: #252525;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -491,7 +491,7 @@ div#preloader {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #a3abb6;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -505,7 +505,7 @@ div#preloader {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #3ec1d5;
 }
 
@@ -522,7 +522,7 @@ div#preloader {
   z-index: 99;
   opacity: 10;
   visibility: visible;
-  background: #a3abb6;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgb(20 21 22);
 }
 
@@ -540,11 +540,11 @@ div#preloader {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #3ec1d5;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -571,6 +571,7 @@ div#preloader {
 }
 
 @media only screen and (max-width: 280px) {
+
   /* For mobile phones: */
   #hero img {
     width: 400px;
@@ -686,6 +687,7 @@ div#preloader {
 }
 
 @media (min-width: 1024px) {
+
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -986,7 +988,7 @@ section.Our-Product ul.nacc li.active {
   margin-bottom: 20px;
 }
 
-.service-area .section-headline.services-head > h2 {
+.service-area .section-headline.services-head>h2 {
   margin-bottom: 25px;
 }
 
@@ -1329,7 +1331,7 @@ section.Our-Product ul.nacc li.active {
   line-height: 0;
 }
 
-.flicker-img > a {
+.flicker-img>a {
   float: left;
   padding: 1px;
   width: 33.33%;
@@ -1389,7 +1391,7 @@ section.Our-Product ul.nacc li.active {
   color: #444;
 }
 
-.copyright > p {
+.copyright>p {
   margin-bottom: 0;
   color: #444;
 }
@@ -1449,80 +1451,7 @@ section.Our-Product ul.nacc li.active {
     padding: 10px 16px;
   }
 
-  .suscribe-input input {
-    width: 60%;
-  }
-
-  .suscribe-input button {
-    width: 40%;
-  }
-
-  .team-content.text-center > h4 {
-    font-size: 20px;
-  }
-
-  .sus-btn {
-    margin-left: 0;
-  }
-
-  .suscribe-text h3 {
-    font-size: 16px;
-    padding-right: 20px;
-  }
-
-  .work-right-text h5 {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  .work-right-text {
-    padding: 36px 0;
-  }
-
-  .work-right-text h2 {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  .work-right-text .ready-btn {
-    font-size: 13px;
-    padding: 7px 20px;
-    margin-top: 5px;
-  }
-
-  .widget-product a img {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-
-  .widget-product .product-info {
-    display: block;
-    float: none;
-    padding-left: 0;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .post-information .entry-meta {
-    font-size: 13px;
-    padding: 5px 0;
-  }
-
-  .post-information .entry-meta span a {
-    padding: 4px 0;
-  }
-
-  .service-pic {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .single-add-itms {
-    width: 50%;
-  }
-
-  .left-sidebar-title > h4 {
+  .left-sidebar-title>h4 {
     font-size: 18px;
   }
 
@@ -1530,9 +1459,6 @@ section.Our-Product ul.nacc li.active {
     margin-top: 0px;
   }
 
-  .search-option input {
-    width: 67%;
-  }
 }
 
 /* small mobile :320px. */
@@ -1563,14 +1489,6 @@ section.Our-Product ul.nacc li.active {
     font-size: 30px;
   }
 
-  .well-middle .single-well {
-    margin-top: 30px;
-  }
-
-  .single-skill {
-    margin-bottom: 40px;
-  }
-
   .tab-menu {
     margin-top: 30px;
   }
@@ -1584,36 +1502,6 @@ section.Our-Product ul.nacc li.active {
     padding: 70px 0px;
   }
 
-  .subs-feilds {
-    width: 100%;
-  }
-
-  .suscribe-input input {
-    width: 60%;
-  }
-
-  .suscribe-input button {
-    font-size: 15px;
-    padding: 14px 10px;
-    width: 40%;
-  }
-
-  .section-headline h3 {
-    font-size: 25px;
-  }
-
-  .well-text > h2 {
-    font-size: 18px;
-  }
-
-  .well-text p {
-    display: none;
-  }
-
-  .single-team-member {
-    margin-bottom: 30px;
-  }
-
   .service-right {
     width: 100%;
   }
@@ -1622,32 +1510,9 @@ section.Our-Product ul.nacc li.active {
     display: none;
   }
 
-  .portfolio-area {
-    padding-top: 0px;
-  }
-
   .project-menu li a {
     padding: 8px 12px;
     margin: 10px 4px;
-  }
-
-  .pri_table_list {
-    margin-bottom: 30px;
-  }
-
-  .single-awesome-project,
-  .portfolio-2 .single-awesome-project {
-    width: 100%;
-    float: none;
-  }
-
-  .single-blog {
-    margin-bottom: 30px;
-  }
-
-  .sus-btn {
-    margin-left: 0;
-    margin-top: 30px;
   }
 
   .contact-form {
@@ -1671,10 +1536,6 @@ section.Our-Product ul.nacc li.active {
     padding: 500px 0;
   }
 
-  .search-option input {
-    width: 74%;
-  }
-
   .header-bottom h2 {
     font-size: 20px;
     margin-bottom: 0;
@@ -1696,19 +1557,6 @@ section.Our-Product ul.nacc li.active {
     height: 40px;
     line-height: 37px;
     width: 40px;
-  }
-
-  .blog-post-dlc ul li {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .awesome-portfolio-content .portfolio-2 {
-    width: 50%;
-  }
-
-  .gallary-details .single-awesome-portfolio {
-    width: 50%;
   }
 
   .tab-menu ul.nav li a {

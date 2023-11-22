@@ -294,7 +294,7 @@ div#preloader {
 @media (max-width: 768px) {
   #header {
     height: 64px;
-    background: rgb(126 175 211);
+    background: rgb(83 131 167);
   }
 
   #header .logo h1 {
@@ -388,7 +388,7 @@ div#preloader {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #a3abb6;
+  background: #fdfeff;
   box-shadow: 0px 0px 3px rgb(20 21 22);
   transition: 0.3s;
 }
@@ -447,7 +447,7 @@ div#preloader {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #c0b9b9;
+  color: #252525;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -491,7 +491,7 @@ div#preloader {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #a3abb6;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -522,7 +522,7 @@ div#preloader {
   z-index: 99;
   opacity: 10;
   visibility: visible;
-  background: #a3abb6;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgb(20 21 22);
 }
 
@@ -840,180 +840,6 @@ label input {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-/* .pst-content {
-  padding-left: 10px;
-}
-
-#portfolio-flters {
-  padding: 0;
-  margin: 5px 0 35px 0;
-  list-style: none;
-  text-align: center;
-  border: 1px solid #868686;
-  border-radius: 10px;
-  margin-bottom: 35px;
-  padding-bottom: 20px;
-  padding-top: 15px;
-  align-items: center;
-}
-
-#portfolio-flters li {
-  cursor: pointer;
-  margin: 15px 15px 15px 0;
-  display: inline-block;
-  padding: 8px 24px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #555;
-  border-radius: 5px;
-  text-transform: uppercase;
-  background: #fff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid #444;
-}
-
-#portfolio-flters li:hover,
-#portfolio-flters li.filter-active {
-  border-color: #3ec1d5;
-  background: #3ec1d5;
-  color: #fff;
-}
-
-#portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.single-awesome-portfolio {
-  float: left;
-  overflow: hidden;
-  padding: 15px;
-  width: 25%;
-  position: relative;
-}
-
-.single-awesome-project {
-  overflow: hidden;
-  display: block;
-  margin-bottom: 30px;
-  border-radius: 15px;
-  background-image: url("../../bg_p.jpg");
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height: 100%;
-  background-size: contain;
-  box-shadow: 0px 0px 15px rgb(0 0 0 / 53%);
-  border: 1px solid #f7f7f5;
-}
-
-.first-item {
-  margin-bottom: 30px;
-}
-
-.awesome-img {
-  width: 80%;
-  height: 100%;
-  position: relative;
-}
-
-.awesome-img>a {
-  display: block;
-  position: relative;
-}
-
-.single-awesome-project:hover .awesome-img>a::after {
-  opacity: 1;
-}
-
-.single-awesome-project:hover .add-actions {
-  opacity: 1;
-  bottom: 0;
-}
-
-.awesome-img>a::after {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  transition: 0.4s;
-}
-
-.add-actions {
-  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-  bottom: 30px;
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  overflow: hidden;
-  padding: 10px 15px;
-  position: absolute;
-  transition: all 0.4s ease 0s;
-  width: 100%;
-}
-
-.project-dec {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-.project-dec a {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-.project-dec h4 {
-  margin-bottom: 5px;
-}
-
-.project-dec h4:hover {
-  color: #fff;
-}
-
-.project-dec h4 {
-  color: #ddd;
-  font-size: 24px;
-  margin-top: -45px;
-  padding-top: 50%;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-.project-dec span {
-  color: #ddd;
-  font-size: 13px;
-}
-
-.project-action-btn {
-  display: block;
-  height: 100%;
-  text-align: center;
-  transition: all 1s ease 0s;
-  width: 100%;
-}
-
-.project-action-btn li {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-.project-action-btn li a {
-  display: block;
-  height: 100%;
-  width: 100%;
-} */
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact-area {
@@ -1286,79 +1112,6 @@ label input {
     padding: 10px 16px;
   }
 
-  .suscribe-input input {
-    width: 60%;
-  }
-
-  .suscribe-input button {
-    width: 40%;
-  }
-
-  .team-content.text-center>h4 {
-    font-size: 20px;
-  }
-
-  .sus-btn {
-    margin-left: 0;
-  }
-
-  .suscribe-text h3 {
-    font-size: 16px;
-    padding-right: 20px;
-  }
-
-  .work-right-text h5 {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  .work-right-text {
-    padding: 36px 0;
-  }
-
-  .work-right-text h2 {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  .work-right-text .ready-btn {
-    font-size: 13px;
-    padding: 7px 20px;
-    margin-top: 5px;
-  }
-
-  .widget-product a img {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-
-  .widget-product .product-info {
-    display: block;
-    float: none;
-    padding-left: 0;
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .post-information .entry-meta {
-    font-size: 13px;
-    padding: 5px 0;
-  }
-
-  .post-information .entry-meta span a {
-    padding: 4px 0;
-  }
-
-  .service-pic {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .single-add-itms {
-    width: 50%;
-  }
-
   .left-sidebar-title>h4 {
     font-size: 18px;
   }
@@ -1367,9 +1120,6 @@ label input {
     margin-top: 0px;
   }
 
-  .search-option input {
-    width: 67%;
-  }
 }
 
 /* small mobile :320px. */
@@ -1400,14 +1150,6 @@ label input {
     font-size: 30px;
   }
 
-  .well-middle .single-well {
-    margin-top: 30px;
-  }
-
-  .single-skill {
-    margin-bottom: 40px;
-  }
-
   .tab-menu {
     margin-top: 30px;
   }
@@ -1421,36 +1163,6 @@ label input {
     padding: 70px 0px;
   }
 
-  .subs-feilds {
-    width: 100%;
-  }
-
-  .suscribe-input input {
-    width: 60%;
-  }
-
-  .suscribe-input button {
-    font-size: 15px;
-    padding: 14px 10px;
-    width: 40%;
-  }
-
-  .section-headline h3 {
-    font-size: 25px;
-  }
-
-  .well-text>h2 {
-    font-size: 18px;
-  }
-
-  .well-text p {
-    display: none;
-  }
-
-  .single-team-member {
-    margin-bottom: 30px;
-  }
-
   .service-right {
     width: 100%;
   }
@@ -1459,32 +1171,9 @@ label input {
     display: none;
   }
 
-  .portfolio-area {
-    padding-top: 0px;
-  }
-
   .project-menu li a {
     padding: 8px 12px;
     margin: 10px 4px;
-  }
-
-  .pri_table_list {
-    margin-bottom: 30px;
-  }
-
-  .single-awesome-project,
-  .portfolio-2 .single-awesome-project {
-    width: 100%;
-    float: none;
-  }
-
-  .single-blog {
-    margin-bottom: 30px;
-  }
-
-  .sus-btn {
-    margin-left: 0;
-    margin-top: 30px;
   }
 
   .contact-form {
@@ -1508,10 +1197,6 @@ label input {
     padding: 500px 0;
   }
 
-  .search-option input {
-    width: 74%;
-  }
-
   .header-bottom h2 {
     font-size: 20px;
     margin-bottom: 0;
@@ -1533,19 +1218,6 @@ label input {
     height: 40px;
     line-height: 37px;
     width: 40px;
-  }
-
-  .blog-post-dlc ul li {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .awesome-portfolio-content .portfolio-2 {
-    width: 50%;
-  }
-
-  .gallary-details .single-awesome-portfolio {
-    width: 50%;
   }
 
   .tab-menu ul.nav li a {
