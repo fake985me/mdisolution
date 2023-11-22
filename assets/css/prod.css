@@ -743,11 +743,11 @@ h2.title:before {
 body {
   font-family: "Roboto", sans-serif;
   padding: 2em 0;
-  background: #833ab4;
-  background: linear-gradient(to right, #42275a, #734b6d);
+  /* background: #833ab4;
+  background: linear-gradient(to right, #42275a, #734b6d); */
   color: rgba(0, 0, 0, 0.73);
   line-height: 1.45;
-}
+} 
 
 .product_items {
   overflow: hidden;
@@ -769,7 +769,7 @@ body {
 
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 1200px;
   margin: 0 auto;
   background: #fff;
@@ -778,7 +778,7 @@ body {
     0px 3px 14px 2px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 3em 0;
-}
+} */
 
 hr {
   background-color: rgba(216, 189, 41, 0.25);
