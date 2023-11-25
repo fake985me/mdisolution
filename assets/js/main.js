@@ -231,7 +231,27 @@
 				.innerHeight();
 			$(".naccs ul").height(listItemHeight + "px");
 		}
-	});
+  });
+  
+  /**
+   * SERVICE
+   */
+  $(document).on("click", ".tnaccs .tmenu div", function() {
+		var numberIndex = $(this).index();
+	
+		if (!$(this).is("active")) {
+			$(".tnaccs .tmenu div").removeClass("active");
+			$(".tnaccs ul li").removeClass("active");
+	
+			$(this).addClass("active");
+			$(".tnaccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+	
+			var listItemHeight = $(".tnaccs ul")
+				.find("li:eq(" + numberIndex + ")")
+				.innerHeight();
+			$(".tnaccs ul").height(listItemHeight + "px");
+		}
+  });
 
 
   /**
