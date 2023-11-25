@@ -728,23 +728,17 @@ div#preloader {
 }
 
 /* Clearfix */
-.section-headline-about h2::before {
-  content: " ";
-  position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: -250px;
-  width: 100%;
-}
+
 .section-headline-about h2::after {
-  content: " ";
+  border: 3px solid #2c2c4c;
+  border-radius: 20px;
+  bottom: -10px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
   position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: 250px;
-  width: 100%;
+  right: 0;
+  width: 40%;
 }
 
 .card-about {
@@ -784,23 +778,17 @@ div#preloader {
 }
 
 /* Clearfix */
-.section-headline-product h2::before {
-  content: " ";
-  position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: -250px;
-  width: 90%;
-}
+
 .section-headline-product h2::after {
-  content: " ";
+  border: 3px solid #2c2c4c;
+  border-radius: 20px;
+  bottom: -10px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
   position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: 270px;
-  width: 90%;
+  right: 0;
+  width: 40%;
 }
 
 section.Our-Product .naccs {
@@ -1068,23 +1056,17 @@ section.Our-Product ul.nacc li.active {
 }
 
 /* Clearfix */
-.section-headline-service h2::before {
-  content: " ";
-  position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: -250px;
-  width: 70%;
-}
+
 .section-headline-service h2::after {
-  content: " ";
+  border: 3px solid #2c2c4c;
+  border-radius: 20px;
+  bottom: -10px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
   position: absolute;
-  border: 4.5px solid #2c2c4c;
-  border-radius: 30px;
-  bottom: 15px;
-  left: 350px;
-  width: 70%;
+  right: 0;
+  width: 40%;
 }
 
 section.Our-service .tnaccs {
