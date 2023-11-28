@@ -263,9 +263,9 @@ div#preloader {
   max-height: 50px;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 768px) {
   #header {
-    width: 280px;
+    height: 64px;
     background: rgb(83 131 167);
   }
 
@@ -324,6 +324,7 @@ div#preloader {
 .navbar a:focus {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 500;
@@ -417,12 +418,6 @@ div#preloader {
   }
 }
 
-@media (max-width: 280px) {
-  .navbar .dropdown:hover>ul {
-    width: 210px;
-  }
-}
-
 /**
 * Mobile Navigation 
 */
@@ -467,36 +462,18 @@ div#preloader {
   display: block;
   position: absolute;
   top: 55px;
-  right: 1px;
+  right: 15px;
   bottom: 15px;
-  left: 10px;
-  padding: 5px 0;
+  left: 15px;
+  padding: 10px 0;
   background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
 
-@media (max-width: 280px) {
-  .navbar-mobile ul {
-    width: 250px;
-  }
-}
-
-@media (max-width: 912px) {
-  .navbar-mobile ul {
-    display: block;
-  }
-}
-
-@media (max-width: 280px) {
-  .navbar-mobile {
-    display: block;
-    width: 280px;
-  }
-}
-
 .navbar-mobile a,
 .navbar-mobile a:focus {
+  padding: 10px 20px;
   font-size: 15px;
   color: #0d2529;
 }
@@ -505,7 +482,7 @@ div#preloader {
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #232222;
-  line-height: 1.5;
+  line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
   font-weight: 800;
 }
@@ -736,11 +713,11 @@ div#preloader {
   background: linear-gradient(15deg, #ffffff, #b2afb1);
 }
 
-.about {
-  display: grid;
+.wrapper {
+  display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 25vh; */
+  height: 25vh;
 }
 
 .section-headline-about h2 {
@@ -767,9 +744,17 @@ div#preloader {
 }
 
 .card-about {
-  margin: 15px;
+  margin: 15px 45px;
   background-color: #2c2c4c;
   border-radius: 10px;
+
+}
+
+@media (max-width: 280px) {
+  .card-about {
+    width: 150px;
+    margin-left: 15px;
+  }
 }
 
 .card-text-about p,
