@@ -263,9 +263,9 @@ div#preloader {
   max-height: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 280px) {
   #header {
-    height: 64px;
+    width: 280px;
     background: rgb(83 131 167);
   }
 
@@ -324,7 +324,6 @@ div#preloader {
 .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 16px;
   font-weight: 500;
@@ -344,7 +343,7 @@ div#preloader {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #232222;
   line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
@@ -384,12 +383,12 @@ div#preloader {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #232222;
   text-shadow: 0 1px 5px #587ea1;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -401,7 +400,7 @@ div#preloader {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -413,8 +412,14 @@ div#preloader {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .navbar .dropdown:hover>ul {
+    width: 210px;
   }
 }
 
@@ -462,27 +467,45 @@ div#preloader {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
+  right: 1px;
   bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  left: 10px;
+  padding: 5px 0;
   background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
 
+@media (max-width: 280px) {
+  .navbar-mobile ul {
+    width: 250px;
+  }
+}
+
+@media (max-width: 912px) {
+  .navbar-mobile ul {
+    display: block;
+  }
+}
+
+@media (max-width: 280px) {
+  .navbar-mobile {
+    display: block;
+    width: 280px;
+  }
+}
+
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
   font-size: 15px;
   color: #0d2529;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #232222;
-  line-height: 2;
+  line-height: 1.5;
   text-shadow: 0 1px 5px #ffffff;
   font-weight: 800;
 }
@@ -518,14 +541,14 @@ div#preloader {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #232222;
   line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
   font-weight: 800;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -552,6 +575,7 @@ div#preloader {
 }
 
 @media only screen and (max-width: 280px) {
+
   /* For mobile phones: */
   #hero img {
     width: 400px;
@@ -667,6 +691,7 @@ div#preloader {
 }
 
 @media (min-width: 1024px) {
+
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -711,11 +736,11 @@ div#preloader {
   background: linear-gradient(15deg, #ffffff, #b2afb1);
 }
 
-.wrapper {
-  display: flex;
+.about {
+  display: grid;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  /* height: 25vh; */
 }
 
 .section-headline-about h2 {
@@ -1581,7 +1606,7 @@ section.Our-service ul.nacc li.active {
   line-height: 0;
 }
 
-.flicker-img > a {
+.flicker-img>a {
   float: left;
   padding: 1px;
   width: 33.33%;
@@ -1641,7 +1666,7 @@ section.Our-service ul.nacc li.active {
   color: #444;
 }
 
-.copyright > p {
+.copyright>p {
   margin-bottom: 0;
   color: #444;
 }
@@ -1701,7 +1726,7 @@ section.Our-service ul.nacc li.active {
     padding: 10px 16px;
   }
 
-  .left-sidebar-title > h4 {
+  .left-sidebar-title>h4 {
     font-size: 18px;
   }
 

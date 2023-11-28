@@ -344,7 +344,7 @@ div#preloader {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #232222;
   line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
@@ -384,12 +384,12 @@ div#preloader {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #232222;
   text-shadow: 0 1px 5px #587ea1;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -401,7 +401,7 @@ div#preloader {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -413,7 +413,7 @@ div#preloader {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -480,7 +480,7 @@ div#preloader {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #232222;
   line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
@@ -518,14 +518,14 @@ div#preloader {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #232222;
   line-height: 2;
   text-shadow: 0 1px 5px #ffffff;
   font-weight: 800;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -552,6 +552,7 @@ div#preloader {
 }
 
 @media only screen and (max-width: 280px) {
+
   /* For mobile phones: */
   #hero img {
     width: 400px;
@@ -667,6 +668,7 @@ div#preloader {
 }
 
 @media (min-width: 1024px) {
+
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -753,10 +755,44 @@ div#preloader {
   color: white;
 }
 
-/*--------------------------------------------------------------
-# ???????
---------------------------------------------------------------*/
+/*---------
+# sidebar
+----------*/
+.left-sidebar {
+  padding-top: 35px;
+}
 
+.left-sidebar h2 {
+  color: #37393a;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.left-sidebar h2::first-line,
+.title h2::first-line {
+  background-color: #fff;
+}
+
+.left-sidebar h2:after,
+h2.title:after {
+  content: " ";
+  position: absolute;
+  border: 1px solid #525252;
+  bottom: 19px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -2;
+}
+
+/*---------
+# ????????
+----------*/
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -910,7 +946,7 @@ div#preloader {
   line-height: 0;
 }
 
-.flicker-img > a {
+.flicker-img>a {
   float: left;
   padding: 1px;
   width: 33.33%;
@@ -970,7 +1006,7 @@ div#preloader {
   color: #444;
 }
 
-.copyright > p {
+.copyright>p {
   margin-bottom: 0;
   color: #444;
 }
@@ -1030,7 +1066,7 @@ div#preloader {
     padding: 10px 16px;
   }
 
-  .left-sidebar-title > h4 {
+  .left-sidebar-title>h4 {
     font-size: 18px;
   }
 
