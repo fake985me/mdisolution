@@ -1854,10 +1854,26 @@ section.Our-service ul.nacc li.active {
   }
 
   .card-service img {
-    padding-top: 15px;
-    max-width: 35%;
-    right: 50px;
-    top: 35px;
+    padding-top: 45px;
+    max-width: 95%;
+    right: 7px;
+    top: 85px;
+    transform: translateY(0);
+  }
+
+  .card-service h4 {
+    padding-top: 255px;
+    max-width: 95%;
+    right: 4px;
+    top: 75px;
+    transform: translateY(0);
+  }
+
+  .card-service p {
+    padding-top: 65px;
+    max-width: 95%;
+    right: 4px;
+    top: 75px;
     transform: translateY(0);
   }
 
