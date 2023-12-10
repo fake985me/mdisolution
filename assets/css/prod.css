@@ -981,8 +981,9 @@ h2.title:after {
   margin: 2px;
   table-layout: auto;
   color: #757575;
-  background-color: #fff;
+  background-color: #f1f0f1;
   border-collapse: collapse;
+  border-radius: 8px;
   border-spacing: 0;
   text-align: left;
 }
@@ -1010,9 +1011,9 @@ h2.title:after {
   color: #999;
 }
 .pagination li.active {
-  background: #32d6aa;
+  background: #32b0d6;
   color: white;
-  border-color: #32d6aa;
+  border-color: #32b0d6;
 }
 .pagination li a {
   text-decoration: none;
