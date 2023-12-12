@@ -38,13 +38,14 @@
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li class="dropdown">
-            <a class="nav-link scrollto" href="#Product"><span>Solutions</span> <i class="bi bi-chevron-down"></i></a>
+            <a class="nav-link scrollto" href="#productfield"><span>Solutions</span> <i
+                class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="product.html">GPON Solutions</a></li>
-              <li><a href="product.html">Ethernet Solutions</a></li>
-              <li><a href="product.html">Cloud Software</a></li>
-              <li><a href="product.html">Wireless Access Point</a></li>
-              <li><a href="product.html">Passive Optical Cable</a></li>
+              <li><a href="#productfield">GPON Solutions</a></li>
+              <li><a href="#productfield">Ethernet Solutions</a></li>
+              <li><a href="#productfield">Cloud Software</a></li>
+              <li><a href="#productfield">Wireless Access Point</a></li>
+              <li><a href="#productfield">Passive Optical Cable</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#services">Support & Service</a></li>
@@ -160,36 +161,29 @@
 
               <label class="gallery-filters__filter" for="category-filter">
                 <span>
-                  Category
+                  Product & Solution
                 </span>
                 <select name="category-filter" id="category-filter">
                   <option value="all">All</option>
-                  <option value="nature">Nature</option>
-                  <option value="architecture">Architecture</option>
+                  <option value="gpon">Fiber Optic Solution</option>
+                  <option value="switch">Ethernet Solution</option>
+                  <option value="wifi">Wireless Solution</option>
+                  <option value="software">Cloud Edge Software</option>
+                  <option value="optic">Fiber Optic Cabling</option>
                 </select>
               </label>
 
               <label class="gallery-filters__filter" for="type-filter">
                 <span>
-                  Type
+                  Brand
                 </span>
                 <select name="type-filter" id="type-filter">
                   <option value="all">All</option>
-                  <option value="download">Download</option>
-                  <option value="link">Link</option>
+                  <option value="dzs">Dasan Dzs</option>
+                  <option value="zone">Zhone</option>
                 </select>
               </label>
-              <div class="items-controller">
-                <span>Show</span>
-                <select name="" id="itemperpage">
-                  <option value="04" selected>04</option>
-                  <option value="05">05</option>
-                  <option value="08">08</option>
-                  <option value="10">10</option>
-                  <option value="15">15</option>
-                </select>
-                <span>Per Page</span>
-              </div>
+
             </div>
           </div>
         </div>
@@ -202,11 +196,11 @@
 
             <!--~~~~~~~~~~~~~~~~~~~~~~~-->
 
-            <div class="container" id="productfield">
-              <div class="col-lg-12 grid d-flex" id="data-container">
+            <div class="container d-flex" id="productfield">
+              <div class="col-lg-12 grid" id="data-container">
                 <!-- Tambahkan elemen card dan gambar sesuai kebutuhan -->
                 <!--gpon row1-->
-                <div class="p_column" data-category="nature" data-type="link">
+                <div class="p_column" data-category="gpon" data-type="dzs">
                   <div class="card">
                     <div class="card-header"></div>
                     <div class="card-img-top">
@@ -227,7 +221,7 @@
                 </div>
                 <!-- ....  -->
                 <!--gpon row2-->
-                <div class="p_column" data-category="architecture" data-type="link">
+                <div class="p_column" data-category="gpon" data-type="dzs">
                   <div class="card">
                     <div class="card-header"></div>
                     <div class="card-img-top">
@@ -248,7 +242,7 @@
                 </div>
                 <!-- ....  -->
                 <!--gpon row3-->
-                <div class="p_column" data-category="architecture" data-type="link">
+                <div class="p_column" data-category="gpon" data-type="zone">
                   <div class="card">
                     <div class="card-header"></div>
                     <div class="card-img-top">
@@ -269,7 +263,7 @@
                 </div>
                 <!-- ....  -->
                 <!--switch row1-->
-                <div class="p_column" data-category="architecture" data-type="link">
+                <div class="p_column" data-category="switch" data-type="dzs">
                   <div class="card">
                     <div class="card-header"></div>
                     <div class="card-img-top">
@@ -291,7 +285,7 @@
                 </div>
                 <!-- ....  -->
                 <!--switch row2-->
-                <div class="p_column" data-category="architecture" data-type="link">
+                <div class="p_column" data-category="swocth" data-type="zone">
                   <div class="card">
                     <div class="card-header"></div>
                     <div class="card-img-top">
@@ -450,7 +444,19 @@
               </div>
             </div>
             <!-- ....  -->
-            <div class="bottom-field">
+            <div class="bottom-field col-xs-2">
+
+              <div class="items-controller">
+                <span>Show</span>
+                <select name="" id="itemperpage">
+                  <option value="04" selected>04</option>
+                  <option value="05">05</option>
+                  <option value="08">08</option>
+                  <option value="10">10</option>
+                  <option value="16">16</option>
+                </select>
+                <span>Per Page</span>
+              </div>
 
               <ul class="pagination">
                 <li class="prev"><a href="#data-container" id="prev">‹</a></li>

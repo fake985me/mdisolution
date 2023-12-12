@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const li = document.createElement("li");
         li.className = "list";
         const a = document.createElement("a");
-        a.href = "#main";
+        a.href = "#data-container";
         a.innerText = i;
         a.setAttribute("data-page", i);
         li.appendChild(a);
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const filteredItems = tr.filter((item) => {
       const itemName = item
-        .querySelector(".card-title h4")
+        .querySelector(".card-title h4", ".card-text p")
         .innerText.toLowerCase();
       const itemCategory = item.getAttribute("data-category").toLowerCase();
       const itemType = item.getAttribute("data-type").toLowerCase();
