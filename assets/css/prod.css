@@ -987,10 +987,10 @@ h2.title:after {
   margin: 2px;
   /* table-layout: auto; */
   color: #757575;
-  background-color: #fff;
+  background-color: #f1f0f1;
   border-collapse: collapse;
-  /* border-spacing: 0; */
-  /* text-align: left; */
+  border-spacing: 0;
+  text-align: left;
 }
 
 .bottom-field {
@@ -1019,9 +1019,9 @@ h2.title:after {
 }
 
 .pagination li.active {
-  background: #70bad7;
+  background: #32d6aa;
   color: white;
-  border-color: #62f0ef;
+  border-color: #32d6aa;
 }
 
 .pagination li a {
