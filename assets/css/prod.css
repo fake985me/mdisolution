@@ -1019,9 +1019,9 @@ h2.title:after {
 }
 
 .pagination li.active {
-  background: #32d6aa;
+  background: #32b7d6;
   color: white;
-  border-color: #32d6aa;
+  border-color: #3286d6;
 }
 
 .pagination li a {

@@ -892,45 +892,91 @@ section.Our-Product ul.nacc li {
 /* Card styles */
 .card {
   border-radius: 15px;
-  background-image: url("../../bg_p.jpg");
-  background-repeat: no-repeat;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
-  background-size: contain;
   box-shadow: 0px 0px 15px rgb(0 0 0 / 53%);
 }
 
-.card-body {
-  display: flex;
-  align-items: flex-end;
+@media (width: 280px) {
+  .card {
+    width: 180px;
+    height: 100%;
+    display: block;
+  }
+}
+
+.card-header:first-child {
+  padding: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: static;
+  display: block;
+  height: 65px;
+  background-size: cover;
+  background-image: url("../../bg_p-removebg-preview.png");
+  background-blend-mode: luminosity;
+}
+
+@media (width: 280px) {
+  .card-header:first-child {
+    display: block;
+    height: 35px;
+  }
 }
 
 .card-img-top {
-  /* margin-top: 20px; */
-  padding-top: 35%;
-  /* padding-bottom: 45%; */
-  width: auto;
-  /* height: 150px; */
+  display: flex;
+  border-radius: 0;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 250px;
 }
 
 .card-img-top img {
-  /* margin-top: 20px; */
+  position: relative;
+  margin: auto;
   background-position: center;
-  align-items: center;
-  width: 80%;
-  display: flex;
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+@media (width: 280px) {
+  .card-img-top img {
+    width: 95%;
+    display: block;
+  }
 }
 
 .card-title h4 {
-  width: 100%;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
   bottom: 0;
   font-weight: 500;
-  vertical-align: text-bottom;
+}
+
+.card-text {
+  width: 100%;
+  height: 105px;
+}
+
+@media (width: 280px) {
+  .card-text {
+    margin-inline: 5px;
+    display: inline-block;
+    overflow: hidden;
+  }
 }
 
 .card-text p {
-  width: 100%;
-  vertical-align: bottom;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 15px;
+  line-height: 100%;
+  overflow: hidden;
 }
 
 .card-fotter {
@@ -942,11 +988,6 @@ section.Our-Product ul.nacc li {
 }
 
 /* Container styles */
-.product {
-  bottom: 0px;
-  position: bottom;
-  padding: 0 10px;
-}
 
 /* Clearfix */
 .product::after,
@@ -956,17 +997,6 @@ section.Our-Product ul.nacc li {
   display: table;
 }
 
-/* Text styles */
-.title {
-  border-radius: 15px;
-  position: relative;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.307);
-  color: rgb(255, 255, 255);
-  width: auto;
-  padding: 1%;
-}
 
 /* Button styles */
 .button a {
